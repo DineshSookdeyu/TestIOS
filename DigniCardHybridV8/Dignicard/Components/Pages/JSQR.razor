@@ -1,0 +1,61 @@
+﻿@page "/JSQR"
+@inject IJSRuntime JS
+@using Microsoft.Maui.ApplicationModel
+
+<button @onclick="StartCamera">Start Camera</button>
+<button @onclick="ScanQRCode">Scan QR Code</button>
+
+<!-- Fix: Ensure `playsinline` is added for iOS -->
+<video id="videoElement" autoplay playsinline style="width: 100%; max-width: 400px;"></video>
+<canvas id="canvasElement" style="display:none;"></canvas>
+
+@if (!string.IsNullOrEmpty(QRCodeResult))
+{
+    <p>Scanned QR Code: @QRCodeResult</p>
+}
+
+@code {
+    private string QRCodeResult = string.Empty;
+
+    private async Task StartCamera()
+    {
+
+       
+
+
+        // Request camera permission
+        var status = await Permissions.RequestAsync<Permissions.Camera>();
+
+        if (status == PermissionStatus.Granted)
+        {
+            // If permission is granted, proceed with accessing the camera
+            try
+            {
+                await JS.InvokeVoidAsync("startVideo", "videoElement");
+            }
+            catch (JSException ex)
+            {
+                Console.WriteLine($"Error accessing camera: {ex.Message}");
+            }
+        }
+        else
+        {
+            // Handle the case where permission is denied
+            Console.WriteLine("Camera permission denied");
+           // await DisplayAlert("Permission Denied", "Camera access is required to use this feature.", "OK");
+        }
+    }
+
+    private async Task ScanQRCode()
+    {
+        try
+        {
+            QRCodeResult = await JS.InvokeAsync<string>("scanQRCode", "videoElement", "canvasElement");
+            StateHasChanged(); // Refresh UI with scanned result
+        }
+        catch (JSException ex)
+        {
+            Console.WriteLine($"Error scanning QR code: {ex.Message}");
+        }
+    }
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Content Include="Resources\Raw\AboutAssets.txt" />
+    <Content Include="C:\Users\User\.nuget\packages\blazorbarcodescanner.zxing.js\1.0.4\staticwebassets\BlazorBarcodeScanner.js" />
+    <Content Include="C:\Users\User\.nuget\packages\blazorbarcodescanner.zxing.js\1.0.4\staticwebassets\zxingjs.index.min.js" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\BarcodeReader.razor.js" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\lib\handwritten\handwritten.css" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\lib\handwritten\handwritten.js" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\lib\viewerjs\viewer.min.css" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\lib\viewerjs\viewer.min.js" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\lib\viewerjs\viewerjs.js" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\lib\zxing\zxing.min.js" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\logo.png" />
+    <Content Include="C:\Users\User\.nuget\packages\zxingblazor\1.1.5\staticwebassets\ZXingBlazor.bundle.scp.css" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\obj\Release\net8.0-ios\scopedcss\bundle\Dignicard.styles.css" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\obj\Release\net8.0-ios\scopedcss\projectbundle\Dignicard.bundle.scp.css" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\css\app.css" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\css\bootstrap\bootstrap.min.css" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\css\bootstrap\bootstrap.min.css.map" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\favicon.png" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\index.html" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\jsQR.js" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\qrScanner.js" />
+    <Content Include="D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\wwwroot\scanner.js" />
+  </ItemGroup>
+</Project>

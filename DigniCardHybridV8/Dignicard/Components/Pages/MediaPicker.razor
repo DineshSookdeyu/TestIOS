@@ -1,0 +1,30 @@
+﻿@page "/MediaPicker"
+@inject CameraService CameraService
+@inject IJSRuntime JSRuntime
+@using Microsoft.JSInterop 
+
+<button @onclick="TriggerScanQRCode">Scan QR Code</button>
+
+@if (!string.IsNullOrEmpty(qrCodeContent))
+{
+    <p>QR Code Content: @qrCodeContent</p>
+}
+
+
+@code {
+    private string qrCodeContent;
+
+    private async Task TriggerScanQRCode()
+    {
+        qrCodeContent = await CameraService.ScanQRCodeAsync();
+        StateHasChanged();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("setupQRCodeScanner");
+        }
+    }
+}

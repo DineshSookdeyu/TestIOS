@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Release\\net8.0-windows10.0.19041.0\\scopedcss\\bundle\\Dignicard.styles.css",
+      "PackagePath": "staticwebassets\\Dignicard.styles.css"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\jsQR.js",
+      "PackagePath": "staticwebassets\\jsQR.js"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\qrScanner.js",
+      "PackagePath": "staticwebassets\\qrScanner.js"
+    },
+    {
+      "Id": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\scanner.js",
+      "PackagePath": "staticwebassets\\scanner.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-windows10.0.19041.0\\staticwebassets\\msbuild.Dignicard.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-windows10.0.19041.0\\staticwebassets\\msbuild.Dignicard.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-windows10.0.19041.0\\staticwebassets\\msbuild.build.Dignicard.props",
+      "PackagePath": "build\\Dignicard.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-windows10.0.19041.0\\staticwebassets\\msbuild.buildMultiTargeting.Dignicard.props",
+      "PackagePath": "buildMultiTargeting\\Dignicard.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0-windows10.0.19041.0\\staticwebassets\\msbuild.buildTransitive.Dignicard.props",
+      "PackagePath": "buildTransitive\\Dignicard.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

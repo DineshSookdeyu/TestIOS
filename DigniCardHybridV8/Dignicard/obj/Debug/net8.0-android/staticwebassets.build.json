@@ -1,0 +1,1698 @@
+{
+  "Version": 1,
+  "Hash": "AuP26nm7zSYvywDYSDorvY3z/etHcMfiDdXtAA7emQc=",
+  "Source": "Dignicard",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Dignicard\\wwwroot",
+      "Source": "Dignicard",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\BlazorBarcodeScanner.js",
+      "SourceId": "BlazorBarcodeScanner.ZXing.JS",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\",
+      "BasePath": "_content/BlazorBarcodeScanner.ZXing.JS",
+      "RelativePath": "BlazorBarcodeScanner.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0vvanvupiz",
+      "Integrity": "zDIFn/eIEUdBbTZ2+2BEOxzHiuj3PbWTvzv0TfhCU2I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\BlazorBarcodeScanner.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\zxingjs.index.min.js",
+      "SourceId": "BlazorBarcodeScanner.ZXing.JS",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\",
+      "BasePath": "_content/BlazorBarcodeScanner.ZXing.JS",
+      "RelativePath": "zxingjs.index.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lui8hy6cpw",
+      "Integrity": "beqBYBIGfb0qQYiegMkoKyRdXFF2op41eoNwBbrBkF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\zxingjs.index.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\BarcodeReader.razor.js",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "BarcodeReader.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iiljn3y7qj",
+      "Integrity": "Vskah4+0poTknpQmmQM1741fGVNCs49pQLCqkKMq6tU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\BarcodeReader.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\handwritten\\handwritten.css",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "lib/handwritten/handwritten.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ideju88zew",
+      "Integrity": "hg390d7L1ns5YeY99V0yhZwg5OlAJv4UG6o1Zh++NwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\handwritten\\handwritten.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\handwritten\\handwritten.js",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "lib/handwritten/handwritten.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l6ys9nsn61",
+      "Integrity": "834IDnDIysGy4XOA1grAxd4zgJDqsCYJH5PpM7HI9z4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\handwritten\\handwritten.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewer.min.css",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "lib/viewerjs/viewer.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6jia6wqsch",
+      "Integrity": "rp3zH14cF7mtnH6HM3eykQTQPi/ORkIQqFQpW+U4GqY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewer.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewer.min.js",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "lib/viewerjs/viewer.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2equpnes46",
+      "Integrity": "GjYpg39oQS56fUyic65fuia++QGCTdu8DS0wHriYqn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewer.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewerjs.js",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "lib/viewerjs/viewerjs.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l7k7awbrpm",
+      "Integrity": "EZyRIHiuEbBRoQDRUUT/ImwA3EAvbaODiG/kggn9LYc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewerjs.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\zxing\\zxing.min.js",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "lib/zxing/zxing.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "scoln7au61",
+      "Integrity": "dH5cdBX8GhPqyah3upBzt3j/tBsPZb7kdv1kmB7mG7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\zxing\\zxing.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\logo.png",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s2wqp1iz6m",
+      "Integrity": "5GFuqhXXJJgfbju8wYf2c/dyMEAE9f+b3jZX55wui08=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\ZXingBlazor.bundle.scp.css",
+      "SourceId": "ZXingBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\",
+      "BasePath": "_content/ZXingBlazor",
+      "RelativePath": "ZXingBlazor.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "55ptov32el",
+      "Integrity": "icih+y/c9iJE5MywIBoM1BXk630Mv+lgNMr1ShD1gZA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\ZXingBlazor.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Dignicard.styles.css",
+      "SourceId": "Dignicard",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "Dignicard#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "abtmdapcnl",
+      "Integrity": "5mKGALSeMgNj04YiO1Q/+VSkiJN9NVDfT5Slh0P0M2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Dignicard.styles.css"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Dignicard.bundle.scp.css",
+      "SourceId": "Dignicard",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
+      "BasePath": "/",
+      "RelativePath": "Dignicard#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "q5nzdbrzx2",
+      "Integrity": "AveBF+mqNvuZep3dUSb1GpXgqHMA+1aB0Tul5lPpXvQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Dignicard.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\app.css",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dex3usdpik",
+      "Integrity": "K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\favicon.png",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\index.html",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jf9z4wfg6k",
+      "Integrity": "gfF/Dto0eSKKfKMgN8SSFMKnCOsshdAW+ogI2ovXkAc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\jsQR.js",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "jsQR#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f1kz1tyi8k",
+      "Integrity": "MyWwiI+kdFxOaUCJfYxPQm+6rnaQH8v+GHGgTpClFlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jsQR.js"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\qrScanner.js",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "qrScanner#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "prdcz74fgu",
+      "Integrity": "S7DhjuWisHq7PJQTaNhN4CMlVlNZ10Z8s4lUX5C/nEE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\qrScanner.js"
+    },
+    {
+      "Identity": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\scanner.js",
+      "SourceId": "Dignicard",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "scanner#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v53lifljx4",
+      "Integrity": "vf6neeVOFZK1wKo2VG+I34AJHG5gtcOa3UAK8GBLB3w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scanner.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/BlazorBarcodeScanner.ZXing.JS/BlazorBarcodeScanner.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\BlazorBarcodeScanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zDIFn/eIEUdBbTZ2+2BEOxzHiuj3PbWTvzv0TfhCU2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Nov 2023 13:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zDIFn/eIEUdBbTZ2+2BEOxzHiuj3PbWTvzv0TfhCU2I="
+        }
+      ]
+    },
+    {
+      "Route": "_content/BlazorBarcodeScanner.ZXing.JS/zxingjs.index.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\blazorbarcodescanner.zxing.js\\1.0.4\\staticwebassets\\zxingjs.index.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292359"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"beqBYBIGfb0qQYiegMkoKyRdXFF2op41eoNwBbrBkF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Feb 2023 22:34:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-beqBYBIGfb0qQYiegMkoKyRdXFF2op41eoNwBbrBkF0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/BarcodeReader.razor.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\BarcodeReader.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vskah4+0poTknpQmmQM1741fGVNCs49pQLCqkKMq6tU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 15:01:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vskah4+0poTknpQmmQM1741fGVNCs49pQLCqkKMq6tU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/lib/handwritten/handwritten.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\handwritten\\handwritten.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hg390d7L1ns5YeY99V0yhZwg5OlAJv4UG6o1Zh++NwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jan 2023 17:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hg390d7L1ns5YeY99V0yhZwg5OlAJv4UG6o1Zh++NwI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/lib/handwritten/handwritten.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\handwritten\\handwritten.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"834IDnDIysGy4XOA1grAxd4zgJDqsCYJH5PpM7HI9z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jan 2023 17:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-834IDnDIysGy4XOA1grAxd4zgJDqsCYJH5PpM7HI9z4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/lib/viewerjs/viewer.min.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewer.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rp3zH14cF7mtnH6HM3eykQTQPi/ORkIQqFQpW+U4GqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jan 2023 17:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rp3zH14cF7mtnH6HM3eykQTQPi/ORkIQqFQpW+U4GqY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/lib/viewerjs/viewer.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewer.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjYpg39oQS56fUyic65fuia++QGCTdu8DS0wHriYqn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Dec 2023 19:47:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjYpg39oQS56fUyic65fuia++QGCTdu8DS0wHriYqn8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/lib/viewerjs/viewerjs.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\viewerjs\\viewerjs.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZyRIHiuEbBRoQDRUUT/ImwA3EAvbaODiG/kggn9LYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jan 2023 17:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZyRIHiuEbBRoQDRUUT/ImwA3EAvbaODiG/kggn9LYc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/lib/zxing/zxing.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\lib\\zxing\\zxing.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dH5cdBX8GhPqyah3upBzt3j/tBsPZb7kdv1kmB7mG7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Dec 2023 19:47:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dH5cdBX8GhPqyah3upBzt3j/tBsPZb7kdv1kmB7mG7c="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/logo.png",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5GFuqhXXJJgfbju8wYf2c/dyMEAE9f+b3jZX55wui08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jan 2023 17:56:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5GFuqhXXJJgfbju8wYf2c/dyMEAE9f+b3jZX55wui08="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ZXingBlazor/ZXingBlazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\zxingblazor\\1.1.5\\staticwebassets\\ZXingBlazor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"icih+y/c9iJE5MywIBoM1BXk630Mv+lgNMr1ShD1gZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jul 2024 15:36:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-icih+y/c9iJE5MywIBoM1BXk630Mv+lgNMr1ShD1gZA="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.dex3usdpik.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dex3usdpik"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "Dignicard.abtmdapcnl.styles.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Dignicard.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5mKGALSeMgNj04YiO1Q/+VSkiJN9NVDfT5Slh0P0M2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/ZXingBlazor/ZXingBlazor.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "abtmdapcnl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5mKGALSeMgNj04YiO1Q/+VSkiJN9NVDfT5Slh0P0M2g="
+        },
+        {
+          "Name": "label",
+          "Value": "Dignicard.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Dignicard.bundle.scp.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Dignicard.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AveBF+mqNvuZep3dUSb1GpXgqHMA+1aB0Tul5lPpXvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AveBF+mqNvuZep3dUSb1GpXgqHMA+1aB0Tul5lPpXvQ="
+        }
+      ]
+    },
+    {
+      "Route": "Dignicard.q5nzdbrzx2.bundle.scp.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Dignicard.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AveBF+mqNvuZep3dUSb1GpXgqHMA+1aB0Tul5lPpXvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q5nzdbrzx2"
+        },
+        {
+          "Name": "label",
+          "Value": "Dignicard.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AveBF+mqNvuZep3dUSb1GpXgqHMA+1aB0Tul5lPpXvQ="
+        }
+      ]
+    },
+    {
+      "Route": "Dignicard.styles.css",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Dignicard.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5mKGALSeMgNj04YiO1Q/+VSkiJN9NVDfT5Slh0P0M2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:40:58 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/ZXingBlazor/ZXingBlazor.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5mKGALSeMgNj04YiO1Q/+VSkiJN9NVDfT5Slh0P0M2g="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 14:40:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gfF/Dto0eSKKfKMgN8SSFMKnCOsshdAW+ogI2ovXkAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 08:03:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gfF/Dto0eSKKfKMgN8SSFMKnCOsshdAW+ogI2ovXkAc="
+        }
+      ]
+    },
+    {
+      "Route": "index.jf9z4wfg6k.html",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gfF/Dto0eSKKfKMgN8SSFMKnCOsshdAW+ogI2ovXkAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 08:03:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf9z4wfg6k"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gfF/Dto0eSKKfKMgN8SSFMKnCOsshdAW+ogI2ovXkAc="
+        }
+      ]
+    },
+    {
+      "Route": "jsQR.f1kz1tyi8k.js",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\jsQR.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "256723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MyWwiI+kdFxOaUCJfYxPQm+6rnaQH8v+GHGgTpClFlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 15:30:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1kz1tyi8k"
+        },
+        {
+          "Name": "label",
+          "Value": "jsQR.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MyWwiI+kdFxOaUCJfYxPQm+6rnaQH8v+GHGgTpClFlU="
+        }
+      ]
+    },
+    {
+      "Route": "jsQR.js",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\jsQR.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "256723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MyWwiI+kdFxOaUCJfYxPQm+6rnaQH8v+GHGgTpClFlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 15:30:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MyWwiI+kdFxOaUCJfYxPQm+6rnaQH8v+GHGgTpClFlU="
+        }
+      ]
+    },
+    {
+      "Route": "qrScanner.js",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\qrScanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7DhjuWisHq7PJQTaNhN4CMlVlNZ10Z8s4lUX5C/nEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 07:53:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7DhjuWisHq7PJQTaNhN4CMlVlNZ10Z8s4lUX5C/nEE="
+        }
+      ]
+    },
+    {
+      "Route": "qrScanner.prdcz74fgu.js",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\qrScanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7DhjuWisHq7PJQTaNhN4CMlVlNZ10Z8s4lUX5C/nEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 07:53:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "prdcz74fgu"
+        },
+        {
+          "Name": "label",
+          "Value": "qrScanner.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7DhjuWisHq7PJQTaNhN4CMlVlNZ10Z8s4lUX5C/nEE="
+        }
+      ]
+    },
+    {
+      "Route": "scanner.js",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\scanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vf6neeVOFZK1wKo2VG+I34AJHG5gtcOa3UAK8GBLB3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 07:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vf6neeVOFZK1wKo2VG+I34AJHG5gtcOa3UAK8GBLB3w="
+        }
+      ]
+    },
+    {
+      "Route": "scanner.v53lifljx4.js",
+      "AssetFile": "D:\\Repos\\DigniCardTestHybrid\\DigniCardHybridV8\\Dignicard\\wwwroot\\scanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vf6neeVOFZK1wKo2VG+I34AJHG5gtcOa3UAK8GBLB3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 07:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v53lifljx4"
+        },
+        {
+          "Name": "label",
+          "Value": "scanner.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vf6neeVOFZK1wKo2VG+I34AJHG5gtcOa3UAK8GBLB3w="
+        }
+      ]
+    }
+  ]
+}

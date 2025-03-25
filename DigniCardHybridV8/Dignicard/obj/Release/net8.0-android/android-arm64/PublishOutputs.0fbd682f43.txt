@@ -1,0 +1,4 @@
+D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\bin\Release\net8.0-android\android-arm64\publish\com.companyname.dignicard-Signed.aab
+D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\bin\Release\net8.0-android\android-arm64\publish\com.companyname.dignicard.aab
+D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\bin\Release\net8.0-android\android-arm64\publish\com.companyname.dignicard-Signed.apk
+D:\Repos\DigniCardTestHybrid\DigniCardHybridV8\Dignicard\bin\Release\net8.0-android\android-arm64\publish\_Microsoft.Android.Resource.Designer.dll

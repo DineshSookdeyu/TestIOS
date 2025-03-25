@@ -1,0 +1,56 @@
+﻿@page "/BlazorZingJsV1"
+@using BlazorBarcodeScanner.ZXing.JS
+
+<b>Result:</b>
+<br />
+<pre>@BarCode</pre>
+<BlazorBarcodeScanner.ZXing.JS.BarcodeReader 
+@ref="scanner" 
+OnBarcodeReceived="LocalReceivedBarcodeText"
+Title="Scan Barcode from Camera"
+    StartCameraAutomatically="false"
+    ShowStart="true"
+    ShowReset="true"
+    ShowToggleTorch = "true"
+    ShowVideoDeviceList="true"
+    VideoWidth="300"
+    VideoHeight="200"/>
+
+<button @onclick="StartScanning">Start Scanning</button>
+<button @onclick="StopScanning">Stop Scanning</button>
+
+@code {
+    public string? BarCode { get; set; }
+    private BlazorBarcodeScanner.ZXing.JS.BarcodeReader scanner;
+
+    private string LocalBarcodeText;
+
+    private void LocalReceivedBarcodeText(BarcodeReceivedEventArgs args)
+    {
+        this.LocalBarcodeText = args.BarcodeText;
+        StateHasChanged();
+    }
+
+
+    private void BarcodeReceived(string barcode)
+    {
+        BarCode = barcode;
+        StateHasChanged();
+    }
+
+    private async Task StartScanning()
+    {
+        if (scanner != null)
+        {
+            await scanner.StartDecoding();
+        }
+    }
+
+    private async Task StopScanning()
+    {
+        if (scanner != null)
+        {
+            await scanner.StopDecoding();
+        }
+    }
+}

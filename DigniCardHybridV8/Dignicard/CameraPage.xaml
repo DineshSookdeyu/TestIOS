@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dignicard.CameraPage"
+             Title="CameraPage"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls">
+    <ContentPage.Content>
+        <Grid>
+            <!-- Dark background to simulate modal effect -->
+            <BoxView Color="Black" Opacity="0.9" />
+
+            <!-- Scanner View in a smaller container -->
+            <Frame Padding="1" CornerRadius="10" BackgroundColor="DodgerBlue" Opacity="0.9" WidthRequest="350"
+                   HeightRequest="500"
+                   HorizontalOptions="Fill" VerticalOptions="Fill" BorderColor="SkyBlue">
+                <Grid>
+                    <zxing:CameraBarcodeReaderView
+                        x:Name="CameraBarcodeScannerView"
+                        IsDetecting="True"
+                        BarcodesDetected="BarcodesDetected"
+                        VerticalOptions="Fill"
+                        HorizontalOptions="Fill" />
+
+                    <!-- Close Button -->
+                    <Button Text="Close" TextColor="DarkOrange" FontSize="24" Clicked="OnCloseClicked"
+                            HorizontalOptions="Center"
+                            VerticalOptions="End"
+                            Margin="5" />
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

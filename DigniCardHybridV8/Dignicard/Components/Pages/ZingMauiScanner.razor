@@ -1,0 +1,23 @@
+﻿@page "/ZXingNetMAUI"
+@using ZXing.Net.Maui
+@using ZXing.Net.Maui.Controls;
+
+<ZXingBarcodeImageView WidthRequest="300" HeightRequest="300" BarcodesDetected="BarcodesDetected" />
+
+@if (!string.IsNullOrEmpty(result))
+{
+    <p>Scanned Result: @result</p>
+}
+
+@code {
+    private string result;
+
+    private void BarcodesDetected(BarcodeDetectionEventArgs args)
+    {
+        if (args.Results != null && args.Results.Any())
+        {
+            result = args.Results.First().Value;
+            StateHasChanged(); // Force Blazor to re-render
+        }
+    }
+}
